@@ -30,7 +30,7 @@
     "build": "npm run build:atom && npm run build:molecules && npm run build:organisms && npm run build:utils && npm run build:scss && npm run build:copy-files",
     "test": "node scripts/test.js",
     "release": "npm run build && npm publish build --tag latest",
-    "build-storybook": "build-storybook -c .storybook"
+    "build-storybook": "build-storybook -c .storybook --quiet"
   },
   "eslintConfig": {
     "extends": "react-app"
