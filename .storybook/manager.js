@@ -4,6 +4,7 @@ import { create } from "@storybook/theming";
 const theme = create({
   base: "light",
 
+  colorPrimary: "#2e8bc0",
   colorSecondary: "#2e8bc0",
 
   // Typography
